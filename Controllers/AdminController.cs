@@ -8,7 +8,6 @@ namespace BlogApp.Controllers
 {
     public class AdminController : Controller
     {
-        string connectionString = "Server=45.84.189.34\\MSSQLSERVER2019;Initial Catalog=muham128_blog;User Id=muham128_blogdbuser;Password=522848Aa.;TrustServerCertificate=True";
 
         public IActionResult Index()
         {
